@@ -114,16 +114,71 @@ print(90*"=")
 Dibawah ini merupakan hasil output dari syntax diatas
 ![2](https://user-images.githubusercontent.com/73016496/100332703-4a54b580-3004-11eb-897f-aef6873744db.png)
 
+## Flowchart
+<img width="408" alt="100194684-b8c44580-2f28-11eb-85c2-8195000946e1" src="https://user-images.githubusercontent.com/73010098/100236384-2d66a680-2f60-11eb-9814-e26312a116f1.png">
 
-## ANALISIS
-• Proses input data terjadi pada syntax dibawah ini :
-![3](https://user-images.githubusercontent.com/73016496/100334127-f4810d00-3005-11eb-9854-f24363c6be0f.png)
-• Pada statement dataNilai=[] berfungsi untuk menyimpan/merangkap data yang akan diinputkan oleh user
-• Pada statement while True : berfungsi untuk melakukan proses looping/perulangan.
-• Pada statement nAkhir = float(nTugas)*30/100+(nUts)*35/100+(nUas)*35/100 diambil dari ketentuan soal untuk proses perhitungan nilai akhir.
-• Pada statement dataNilai.append ([nama, nim, nTugas, nUts, nUas, nAkhir]) berfungsi menambah element list.
-• Pada statement
 
+## Praktikum 5
+# Latihan 5
+![Screenshot (45)](https://user-images.githubusercontent.com/73010098/100233819-d3181680-2f5c-11eb-8a73-e31c0dff2564.png)
+
+
+
+### Syntax
+berikut merupakan syntax untuk menampilkan program diatas
+```python
+#Dictionary
+daftarKontak = {"Nama":"Nomer Telpon"}
+kontak       = {'Ari':'081267888', 'Dina' : '087677776'}
+
+#print
+print(90*"═")
+print("    Nama    |  Nomor Telepon  ") #prinr daftarkontak
+print(90*"-")
+print("   # Ari    | ", kontak['Ari']) #print kontak Ari
+print("   # Dina   | ", kontak['Dina']) #print kontak Dina
+print(90*"═")
+
+#Tampilkan kontaknya Ari
+print("Tampilkan kontaknya Ari")
+print("    Ari     | ", kontak['Ari']) #print kontak Ari
+print(90*"═")
+#Tambah kontak baru dengan nama Riko, nomor 087654544
+print("Tambah kontak baru dengan nama Riko, nomor 087654544")
+kontak['Riko'] = '087654544'
+print("    Riko    | ", kontak['Riko'])
+print(90*"═")
+
+#Ubah kontak Dina dengan nomor baru 088999776
+print("Ubah kontak Dina dengan nomor baru 088999776")
+kontak['Dina'] = '088999776'
+print("    Dina    | ", kontak['Dina'])
+print(90*"═")
+
+#Tampilkan semua Nama
+print("Tampilkan semua Nama")
+print(kontak.keys())
+print(90*"═")
+
+#Tampilkan semua Nomor
+print("Tampilkan semua Nomor")
+print(kontak.values())
+print(90*"═")
+
+#Tampilkan daftar Nama dan nomornya
+print("Tampilkan daftar Nama dan nomornya")
+print(kontak.items())
+print(90*"═")
+
+#MengHapus kontak Dina
+print("Hapus kontak Dina")
+kontak.pop('Dina')
+print(kontak.items())
+print(90*"═")
+```
+
+## OUTPUT
+Dibawah ini merupakan hasil output dari syntax diatas
 
 
 
