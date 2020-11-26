@@ -112,6 +112,58 @@ print(90*"=")
 
 ## OUTPUT
 Dibawah ini merupakan hasil output dari syntax diatas
+![2](https://user-images.githubusercontent.com/73016496/100332703-4a54b580-3004-11eb-897f-aef6873744db.png)
+
+
+## ANALISIS
+• Proses input data terjadi pada syntax dibawah ini :
+
+dataNilai = []
+while True :
+    nama = input("Nama        : ")
+    nim = input("NIM         : ")
+    nTugas = int(input("Nilai Tugas : "))
+    nUts = int(input("Nilai UTS   : "))
+    nUas = int(input("Nilai UAS   : "))
+    nAkhir = float(nTugas)*30/100+(nUts)*35/100+(nUas)*35/100
+    dataNilai.append ([nama, nim, nTugas, nUts, nUas, nAkhir])
+    add = input("TAMBAH DATA (ya/tidak)?")
+• Pada statement dataNilai=[] berfungsi untuk menyimpan/merangkap data yang akan diinputkan oleh user
+• Pada statement while True : berfungsi untuk melakukan proses looping/perulangan.
+• Pada statement nAkhir = float(nTugas)*30/100+(nUts)*35/100+(nUas)*35/100 diambil dari ketentuan soal untuk proses perhitungan nilai akhir.
+• Pada statement dataNilai.append ([nama, nim, nTugas, nUts, nUas, nAkhir]) berfungsi menambah element list.
+• Pada statement
+
+add = input("TAMBAH DATA (ya/tidak)?")
+
+if add.lower() == "tidak":
+        break
+untuk melakukan proses condition atau pemilihan 2 opsi
+jika user memilih ya maka program akan menampilkan tambah data, sedangkan jika user memilih tidak maka program akan menampilkan directory data mahasiswa.
+
+• Proses directory terjadi pada syntax dibawah ini :
+
+#directory data siswa
+print(95*"=")
+print("| {0:^2} | {1:^18} | {2:^10} | {3:^10} | {4:^10} | {5:^10} | {6:^7} |".format("NO", "NAMA", "NIM", "NILAI TUGAS", "NILAI UTS", "NILAI UAS", "NILAI AKHIR"))
+print(95*"=")
+no = 0
+for x in dataNilai:
+    no+=1
+    print("| {0:>2} | {1:<18} | {2:>10} | {3:>11} | {4:>10} | {5:>10} | {6:>11.2f} |"\
+        .format (no,x[0][:18],x[1][:10],x[2],x[3],x[4],x[5]))
+print(95*"=")
+• Pada statement
+
+print("| {0:^2} | {1:^18} | {2:^10} | {3:^10} | {4:^10} | {5:^10} | {6:^7} |".format("NO", "NAMA", "NIM", "NILAI TUGAS", "NILAI UTS", "NILAI UAS", "NILAI AKHIR"))
+berfungsi untuk membuah tabel directory agar terlihat rapih.
+
+• Pada statement no = 0 dan no+=1berfungsi untuk menambahkan nomor urut.
+• Pada statement
+
+ print("| {0:>2} | {1:<18} | {2:>10} | {3:>11} | {4:>10} | {5:>10} | {6:>11.2f} |"\
+        .format (no,x[0][:18],x[1][:10],x[2],x[3],x[4],x[5]))
+berfungsi untuk memanggil/menyimpan data yang sudah diinput ke dalam directory.
 
 
 
