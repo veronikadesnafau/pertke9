@@ -117,6 +117,13 @@ Dibawah ini merupakan hasil output dari syntax diatas
 
 ## ANALISIS
 • Proses input data terjadi pada syntax dibawah ini :
+![3](https://user-images.githubusercontent.com/73016496/100334127-f4810d00-3005-11eb-9854-f24363c6be0f.png)
+• Pada statement dataNilai=[] berfungsi untuk menyimpan/merangkap data yang akan diinputkan oleh user
+• Pada statement while True : berfungsi untuk melakukan proses looping/perulangan.
+• Pada statement nAkhir = float(nTugas)*30/100+(nUts)*35/100+(nUas)*35/100 diambil dari ketentuan soal untuk proses perhitungan nilai akhir.
+• Pada statement dataNilai.append ([nama, nim, nTugas, nUts, nUas, nAkhir]) berfungsi menambah element list.
+• Pada statement
+
 
 
 
