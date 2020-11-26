@@ -75,6 +75,23 @@ Dibawah ini merupakan hasil output dari syntax diatas
 
 ## Tugas Praktikum 4
 ![Screenshot (40)](https://user-images.githubusercontent.com/73010098/100231831-2046b900-2f5a-11eb-8cc4-2d6e0b8e2670.png)
+1) Penggunaan if c.lower()
+
+if c.lower() fungsinya apabila user menginputkan denga huruf besar, maka otomatis akan menjadi huruf kecil sehingga kondisi yang digunakan tercapai. Contoh :
+
+if c.lower() == `q`
+
+2) Penggunaan while True
+
+while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul error
+
+3) Penggunaan else
+
+Fungsi else jika tidak error dan type yang dimasukan sesuai maka proses while True
+
+4) Penggunaan valuveError
+
+   Fungsinya apabila diinputkan bukan berupa type m
 
 ### Syntax
 berikut merupakan syntax untuk menampilkan program diatas
@@ -179,6 +196,23 @@ print(90*"═")
 
 ## OUTPUT
 Dibawah ini merupakan hasil output dari syntax diatas
+![4](https://user-images.githubusercontent.com/73016496/100341031-a15f8800-300e-11eb-85e2-e6a90248fcdd.png)
+
+
+## penjelasan
+• Penjelasan singkat fungsi source code kurang lebih seperti yang sudah dijelaskan di comment yang tertera pada Syntax
+
+
+
+
+
+###### AUTHOR-VERONIKA DESNA ERNAYANTI FAU (312010333)
+
+   
+  
+
+
+
 
 
 
