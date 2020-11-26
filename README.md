@@ -65,7 +65,7 @@ print("gabungan list A dan list B : ", listC)
 print(80*"=")
 
 
-###OUTPUT
+## OUTPUT
 Dibawah ini merupakan hasil output dari syntax diatas
 ![1](https://user-images.githubusercontent.com/73016496/100323437-56d31100-2ff8-11eb-9b61-5f84f1d8daba.png)
 
